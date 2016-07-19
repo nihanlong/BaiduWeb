@@ -1,0 +1,52 @@
+html{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 20px 20px 20px 20px;
+}
+
+img{
+	width: 80px;
+	height: 80px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.content{
+	overflow: auto;
+	padding: 20px 160px 20px 240px;
+	background-color: #eee;
+	border: 1px solid #999;
+}
+.main{
+	float: left;
+	width: 100%;
+	border: 1px solid #999;
+}
+.team-introduce{
+	padding: 0px 20px 20px 20px;
+}
+.left{
+	position:relative;
+	left: -220px;
+	float: left;
+	width: 200px;
+	height: 120px;
+	margin-left: -100%;
+	border: 1px solid #999;
+}
+.right{
+	position:relative;
+	right: -140px;
+	float: left;
+	width: 120px;
+	margin-left: -122px;
+	border: 1px solid #999;
+}
+.team-name{
+	position: absolute;
+	left: 120px;
+	top: 20px;
+}
